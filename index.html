@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <!-- meta tags help search engines identify your website -->
+  <meta name="keywords" content="">
+  <!-- this won't show up on your actual web page, its just to help identify site author -->
+  <meta name="author" content="">
+  <!-- Modernizr JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <!-- JQuery To Handle Cookies pop up -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Place favicon and apple-touch-icon in the root directory -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- main CSS file -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+  <title>Hasssams Personal Site</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <img class="profile-picture" src="images/hassam.jpg" alt="hassam profile picture"></td>
+    <h1>Hassam Nasir</h1>
+    <h3>Front End Web-Developer</h3>
+    <p>I am a web developer in training, currently focusing on front-end technologies, but hoping to become a full-stack developer</p>
+    <hr>
+    <h2>Education</h2>
+    <p>Alton Primary School</p>
+    <p>Southfields Academy</p>
+    <p>University Of East London</p>
+    <hr>
+    <h2>Skills</h2>
+    <h3>HTML</h3>
+    <img class="html-logo" src="./images/html.png" alt="html 5 logo">
+    <h3>CSS</h3>
+    <img class="css-logo" src="./images/css.png" alt="css 5 logo">
+    <h3>JavaScript</h3>
+    <img class="js-logo" src="./images/js.png" alt="javascript logo">
+    <hr> <br> </br>
+    <a href="hobbies.html">Hobbies</a></a> </br> </br>
+    <a href="contact-me.html">Contact Me</a>
+  </div>
+  <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="hassamnasir">
+    <a class="LI-simple-link" href='https://uk.linkedin.com/in/hassamnasir?trk=profile-badge'>Hassam Nasir</a>
+  </div>
+</body>
+
+<footer>
+  <!-- This is for the cookie dialogue pop-up -->
+  <div id="cookieConsent">
+    <div id="closeCookieConsent">x</div>
+    This website does not track cookies.<a class="cookieConsentOK">That's Fine</a>
+  </div>
+  <script>
+    $(document).ready(function() {
+      setTimeout(function() {
+        $("#cookieConsent").fadeIn(200);
+      }, 4000);
+      $("#closeCookieConsent, .cookieConsentOK").click(function() {
+        $("#cookieConsent").fadeOut(200);
+      });
+    });
+  </script>
+</footer>
+
+</html>
